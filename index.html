@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,65 +7,182 @@
     <title>Sarafan</title>
   </head>
   <body>
-    <div class="new-collection-group">
-      <h1 class="new-collection">New-collection</h1>
-      <div class="product-group">
+    <div class="collection">
+      <h1 class="collection__title">New Collection</h1>
+      <div class="collection__products">
         <div class="product-card">
-          <img
-            class="photo-card"
-            src="./images/1.jfif"
-            alt="Платье в полоску с запахом"
-          />
-          <img class="like" src="./images/Frame-3svg.svg" alt="понравилось" />
-          <p>Платье в полоску с запахом</p>
-          <p>6 999 Руб.</p>
-        </div>
-        <div class="product-card">
-          <img class="photo-card" src="./images/2.jfif" alt="Объемный пиджак" />
-          <img class="like" src="./images/Frame-3svg.svg" alt="понравилось" />
-          <p>Объемный пиджак</p>
-          <p>12 999Руб.</p>
-        </div>
-        <div class="product-card">
-          <img
-            class="photo-card"
-            src="./images/3.jfif"
-            alt="Комбинизон с принтом"
-          />
-          <img class="like" src="./images/Frame-3svg.svg" alt="понравилось" />
-          <p>Комбинизон с принтом</p>
-          <p>6 999Руб.</p>
-        </div>
-        <div class="product-card">
-          <img
-            class="photo-card"
-            src="./images/4.jfif"
-            alt="Атласный топ-комбинация"
-          />
-          <img class="like" src="./images/Frame-3svg.svg" alt="понравилось" />
-          <p>Атласный топ-комбинация</p>
-          <p>2 799Руб.</p>
-        </div>
-        <div class="product-group-big">
-          <div class="product-card-big">
+          <div class="product-card__image-wrapper">
             <img
-              class="big-photo-card"
-              src="./images/5.jfif"
-              alt="Блейзер с декоративными пуговицами"
+              class="product-card__image"
+              src="./images/1.jfif"
+              alt="Платье в полоску с запахом"
             />
-            <img class="like" src="./images/Frame-3svg.svg" alt="понравилось" />
-            <p>Блейзер с декоративными пуговицами</p>
-            <p>9 999 руб.</p>
+            <button class="product-card__like">
+              <svg
+                class="product-card__like-icon"
+                width="26"
+                height="26"
+                viewBox="0 0 512 512"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <path
+                  d="M83.9411 142.294C122.891 63.1439 255.67 91.5061 255.67 142.294H256.33C256.33 91.5061 389.109 63.1439 428.059 142.294C484.667 257.326 342.294 357.51 257.204 417.385L256.33 418H255.67L254.795 417.385C169.706 357.51 27.3328 257.326 83.9411 142.294Z"
+                  stroke="currentColor"
+                  stroke-width="24"
+                />
+              </svg>
+            </button>
           </div>
-          <div class="product-card-big">
+          <p class="product-card__name">Платье в полоску с запахом</p>
+          <p class="product-card__price">6 999 руб.</p>
+        </div>
+
+        <div class="product-card">
+          <div class="product-card__image-wrapper">
             <img
-              class="big-photo-card"
-              src="./images/6.jfif"
-              alt="Блейзер с декоративными пуговицами"
+              class="product-card__image"
+              src="./images/2.jfif"
+              alt="Объемный пиджак"
             />
-            <img class="like" src="./images/Frame-3svg.svg" alt="понравилось" />
-            <p>Блейзер с декоративными пуговицами</p>
-            <p>9 999 руб.</p>
+            <button class="product-card__like">
+              <svg
+                class="product-card__like-icon"
+                width="26"
+                height="26"
+                viewBox="0 0 512 512"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <path
+                  d="M83.9411 142.294C122.891 63.1439 255.67 91.5061 255.67 142.294H256.33C256.33 91.5061 389.109 63.1439 428.059 142.294C484.667 257.326 342.294 357.51 257.204 417.385L256.33 418H255.67L254.795 417.385C169.706 357.51 27.3328 257.326 83.9411 142.294Z"
+                  stroke="currentColor"
+                  stroke-width="24"
+                />
+              </svg>
+            </button>
+          </div>
+          <p class="product-card__name">Объемный пиджак</p>
+          <p class="product-card__price">12 999 руб.</p>
+        </div>
+
+        <div class="product-card">
+          <div class="product-card__image-wrapper">
+            <img
+              class="product-card__image"
+              src="./images/3.jfif"
+              alt="Комбинизон с принтом"
+            />
+            <button class="product-card__like">
+              <svg
+                class="product-card__like-icon"
+                width="26"
+                height="26"
+                viewBox="0 0 512 512"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <path
+                  d="M83.9411 142.294C122.891 63.1439 255.67 91.5061 255.67 142.294H256.33C256.33 91.5061 389.109 63.1439 428.059 142.294C484.667 257.326 342.294 357.51 257.204 417.385L256.33 418H255.67L254.795 417.385C169.706 357.51 27.3328 257.326 83.9411 142.294Z"
+                  stroke="currentColor"
+                  stroke-width="24"
+                />
+              </svg>
+            </button>
+          </div>
+          <p class="product-card__name">Комбинизон с принтом</p>
+          <p class="product-card__price">6 999 руб.</p>
+        </div>
+
+        <div class="product-card">
+          <div class="product-card__image-wrapper">
+            <img
+              class="product-card__image"
+              src="./images/4.jfif"
+              alt="Атласный топ-комбинация"
+            />
+            <button class="product-card__like">
+              <svg
+                class="product-card__like-icon"
+                width="26"
+                height="26"
+                viewBox="0 0 512 512"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <path
+                  d="M83.9411 142.294C122.891 63.1439 255.67 91.5061 255.67 142.294H256.33C256.33 91.5061 389.109 63.1439 428.059 142.294C484.667 257.326 342.294 357.51 257.204 417.385L256.33 418H255.67L254.795 417.385C169.706 357.51 27.3328 257.326 83.9411 142.294Z"
+                  stroke="currentColor"
+                  stroke-width="24"
+                />
+              </svg>
+            </button>
+          </div>
+          <p class="product-card__name">Атласный топ-комбинация</p>
+          <p class="product-card__price">2 799 руб.</p>
+        </div>
+
+        <div class="collection__products-big">
+          <div class="product-card product-card--big">
+            <div class="product-card__image-wrapper">
+              <img
+                class="product-card__image product-card__image--big"
+                src="./images/5.jfif"
+                alt="Блейзер с декоративными пуговицами (черный)"
+              />
+              <button class="product-card__like">
+                <svg
+                  class="product-card__like-icon"
+                  width="26"
+                  height="26"
+                  viewBox="0 0 512 512"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M83.9411 142.294C122.891 63.1439 255.67 91.5061 255.67 142.294H256.33C256.33 91.5061 389.109 63.1439 428.059 142.294C484.667 257.326 342.294 357.51 257.204 417.385L256.33 418H255.67L254.795 417.385C169.706 357.51 27.3328 257.326 83.9411 142.294Z"
+                    stroke="currentColor"
+                    stroke-width="24"
+                  />
+                </svg>
+              </button>
+            </div>
+            <p class="product-card__name">Блейзер с декоративными пуговицами</p>
+            <p class="product-card__price">9 999 руб.</p>
+          </div>
+
+          <div class="product-card product-card--big">
+            <div class="product-card__image-wrapper">
+              <img
+                class="product-card__image product-card__image--big"
+                src="./images/6.jfif"
+                alt="Блейзер с декоративными пуговицами (бежевый)"
+              />
+              <button class="product-card__like">
+                <svg
+                  class="product-card__like-icon"
+                  width="26"
+                  height="26"
+                  viewBox="0 0 512 512"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M83.9411 142.294C122.891 63.1439 255.67 91.5061 255.67 142.294H256.33C256.33 91.5061 389.109 63.1439 428.059 142.294C484.667 257.326 342.294 357.51 257.204 417.385L256.33 418H255.67L254.795 417.385C169.706 357.51 27.3328 257.326 83.9411 142.294Z"
+                    stroke="currentColor"
+                    stroke-width="24"
+                  />
+                </svg>
+              </button>
+            </div>
+            <p class="product-card__name">Блейзер с декоративными пуговицами</p>
+            <p class="product-card__price">9 999 руб.</p>
           </div>
         </div>
       </div>
