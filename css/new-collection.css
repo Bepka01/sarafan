@@ -1,0 +1,149 @@
+.collection {
+  width: 1170px;
+  margin: 100px auto;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.collection__title {
+  letter-spacing: 3%;
+  line-height: 113%;
+  font-weight: 400;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  display: unset;
+}
+
+.collection__products {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.collection__products-big {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.product-card {
+  width: 270px;
+  height: 416px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.product-card--big {
+  height: 712px;
+  width: 570px;
+}
+
+.product-card__image-wrapper {
+  position: relative;
+}
+
+.product-card__image {
+  width: 270px;
+  height: 353px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.product-card__image--big {
+  width: 570px;
+  height: 649px;
+}
+
+.product-card__like {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.product-card__like-icon {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.product-card__like:hover .product-card__like-icon,
+.product-card__like:active .product-card__like-icon,
+.product-card__name,
+.product-card__price,
+.collection__title {
+  color: var(--black);
+}
+
+.product-card__name,
+.product-card__price {
+  font-family: "Montserrat", sans-serif;
+}
+
+.product-card__name {
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+.mobile-collection__title {
+  display: none;
+}
+.all-collection {
+  display: none;
+}
+@media (max-width: 768px) {
+  .collection {
+    padding: 20px;
+  }
+}
+@media (max-width: 430px) {
+  .collection {
+    padding: 10px;
+  }
+  .collection__title {
+    font-size: 18px;
+    margin: 50px 84px 15px 30px;
+  }
+
+  .all-collection {
+    display: unset;
+    padding: 41px;
+  }
+
+  .collection__products {
+    overflow: auto;
+    margin-top: 15px;
+  }
+
+  .product-card {
+    height: 336px;
+    width: 222px;
+  }
+
+  .collection__products-big {
+    display: none;
+  }
+
+  .arrow {
+    color: var(--black);
+  }
+
+  .product-card__image {
+    height: 290px;
+    width: 222px;
+  }
+
+  .product-card__name,
+  .product-card__price {
+    font-size: 11px;
+  }
+
+  .product-card__name {
+    margin: 15px 0 5px 0px;
+  }
+}
