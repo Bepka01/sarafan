@@ -50,23 +50,28 @@
   color: var(--black);
   transition: all 0.2s ease-in;
 }
+
 .mobile {
   display: none;
 }
+
 @media (max-width: 430px) {
   .conteiner {
     display: none;
   }
+
   .mobile {
     display: block;
     width: 332px;
     margin: auto;
   }
+
   .collection-title {
     font-size: 18px;
     text-align: center;
     margin-bottom: 15px;
   }
+
   .mobile-photo {
     margin-bottom: 25px;
     height: 332px;
@@ -78,6 +83,7 @@
 
     width: 260px;
   }
+
   .button-about {
     font-size: 13px;
   }
