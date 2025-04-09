@@ -1,90 +1,114 @@
-.conteiner {
-  margin: 120px auto;
+.container {
   width: 1170px;
+  padding: 120px 10px;
+  margin: 0 auto;
 }
-
-.autumn-collection {
-  max-width: 822px;
+.title-about {
   display: flex;
+  max-width: 822px;
   justify-content: space-between;
-  align-items: start;
-  margin-bottom: 20px;
 }
 
-.collection-about {
-  width: 370px;
-  font-size: 16px;
-  margin-bottom: 20px;
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
-.collection-title {
+.title {
   font-size: 25px;
   color: var(--black);
 }
-
+.text-about {
+  max-width: 370px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.title,
+.text-about {
+  color: var(--black);
+}
+.buttom-about {
+  color: var(--gray);
+  text-decoration: underline;
+  margin-bottom: 60px;
+}
 .photo-collection {
   display: flex;
   justify-content: space-between;
   gap: 30px;
 }
 
-.button-about {
-  font-size: 16px;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  color: var(--gray);
-  margin-bottom: 60px;
-}
-
-.photo1 {
-  height: 694px;
-  width: 669px;
-}
-
-.photo2 {
-  height: 694px;
-  width: 470px;
-}
-
-.button-about:hover {
-  color: var(--black);
-  transition: all 0.2s ease-in;
-}
-
-.mobile {
+.for-mobile {
   display: none;
 }
 
-@media (max-width: 430px) {
-  .conteiner {
+@media (max-width: 1270px) {
+  .photo-collection {
+    gap: 10px;
+  }
+}
+@media (max-width: 1200px) {
+  .right-photo {
     display: none;
   }
 
-  .mobile {
-    display: block;
-    width: 332px;
-    margin: auto;
-  }
-
-  .collection-title {
-    font-size: 18px;
-    text-align: center;
+  .title {
     margin-bottom: 15px;
   }
 
+  .title-about {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: unset;
+  }
+  .about {
+    display: flex;
+    max-width: unset;
+    align-items: center;
+  }
+
+  .photo-collection {
+    display: flex;
+    justify-content: center;
+  }
+  .buttom-about {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 650px) {
+  .for-mobile {
+    display: unset;
+    padding: 120px 10px;
+  }
+  .autumn {
+    display: none;
+  }
+  .photo {
+    display: flex;
+    justify-content: center;
+  }
+  .title-mobile {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
   .mobile-photo {
+    max-width: 320px;
     margin-bottom: 25px;
-    height: 332px;
-    width: 320px;
   }
-
-  .collection-about {
+  .mobile-about__text {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 260px;
+  }
+  .mobile-about-text {
     font-size: 11px;
-
-    width: 260px;
+    color: var(--black);
+    margin-bottom: 15px;
   }
-
-  .button-about {
+  .mobile-bottom-about {
+    color: var(--gray);
     font-size: 13px;
   }
 }
