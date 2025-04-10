@@ -76,7 +76,8 @@
     margin-bottom: 30px;
   }
 }
-@media (max-width: 650px) {
+
+@media (max-width: 785px) {
   .for-mobile {
     display: unset;
     padding: 120px 10px;
@@ -102,7 +103,7 @@
     margin: 0 auto;
     max-width: 260px;
   }
-  .mobile-about-text {
+  .mobile-about__item {
     font-size: 11px;
     color: var(--black);
     margin-bottom: 15px;
