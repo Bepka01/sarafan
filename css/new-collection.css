@@ -82,6 +82,7 @@
 @media (max-width: 871px) {
   .new-collection__cards {
     flex-wrap: wrap;
+    object-position: 20% 30%;
   }
   .new-collection__photo {
     width: 100%;
