@@ -82,7 +82,6 @@
 @media (max-width: 871px) {
   .new-collection__cards {
     flex-wrap: wrap;
-    object-position: 20% 30%;
   }
   .new-collection__photo {
     width: 100%;
@@ -108,7 +107,6 @@
     flex-wrap: nowrap;
     overflow-x: auto;
     gap: 15px;
-    /* justify-content: flex-start; */
   }
   .new-collection-title {
     margin-bottom: 15px;
@@ -127,7 +125,7 @@
     display: unset;
     color: var(--black);
   }
-  .mobile-title {
+  .mobile-section-title {
     display: flex;
     justify-content: space-between;
   }
