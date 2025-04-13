@@ -1,115 +1,87 @@
-.container {
-  width: 1170px;
-  padding: 120px 10px;
-  margin: 0 auto;
-}
-.title-about {
-  display: flex;
-  max-width: 822px;
-  justify-content: space-between;
-}
-
 .about {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
+  max-width: 822px;
+  margin-bottom: 60px;
 }
-.title {
+
+.title__collection {
   font-size: 25px;
-  color: var(--black);
+  font-family: "Montserrat", sans-serif;
 }
-.text-about {
+
+.about__collection {
   max-width: 370px;
+}
+.collection-text {
+  line-height: 140%;
   font-size: 16px;
   margin-bottom: 20px;
 }
-.title,
-.text-about {
-  color: var(--black);
-}
-.buttom-about {
+.bottom-about {
   color: var(--gray);
   text-decoration: underline;
-  margin-bottom: 60px;
 }
-.photo-collection {
+.bottom-about:hover {
+  color: var(--black);
+  transition: all 0.3s ease-out;
+}
+.photo__collection {
   display: flex;
   justify-content: space-between;
   gap: 30px;
 }
-
-.for-mobile {
+.left-photo {
+  max-width: 669px;
+}
+.right-photo {
+  max-width: 480px;
+}
+.for__mobile {
   display: none;
 }
-
-@media (max-width: 1270px) {
-  .photo-collection {
-    gap: 10px;
-  }
-}
-@media (max-width: 1200px) {
-  .right-photo {
+@media (max-width: 870px) {
+  .container {
     display: none;
   }
 
-  .title {
-    margin-bottom: 15px;
-  }
-
-  .title-about {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    max-width: unset;
-  }
-  .about {
-    display: flex;
-    max-width: unset;
-    align-items: center;
-  }
-
-  .photo-collection {
-    display: flex;
-    justify-content: center;
-  }
-  .buttom-about {
-    margin-bottom: 30px;
-  }
-}
-
-@media (max-width: 785px) {
-  .for-mobile {
-    display: unset;
+  .for__mobile {
+    display: block;
     padding: 120px 10px;
   }
-  .autumn {
-    display: none;
+
+  .mobile__title-block {
+    text-align: center;
+    margin-bottom: 15px;
   }
-  .photo {
+
+  .mobile__title {
+    font-size: 18px;
+  }
+
+  .mobile__photo {
     display: flex;
     justify-content: center;
-  }
-  .title-mobile {
-    font-size: 18px;
-    margin-bottom: 15px;
-    text-align: center;
-  }
-  .mobile-photo {
-    max-width: 320px;
     margin-bottom: 25px;
   }
-  .mobile-about__text {
-    text-align: left;
-    margin: 0 auto;
-    max-width: 260px;
+
+  .img-mobile {
+    width: 320px;
   }
-  .mobile-about__item {
+
+  .about__collection {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 260px;
+  }
+
+  .collection-text {
     font-size: 11px;
-    color: var(--black);
     margin-bottom: 15px;
   }
-  .mobile-bottom-about {
-    color: var(--gray);
+  .bottom-about {
     font-size: 13px;
   }
 }
