@@ -16,7 +16,7 @@
 .collection-text {
   line-height: 140%;
   font-size: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 21px;
 }
 .bottom-about {
   color: var(--gray);
@@ -73,7 +73,6 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     width: 260px;
   }
 
