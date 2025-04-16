@@ -10,6 +10,12 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.title__collection,
+.bottom-about:hover,
+.collection-text {
+  color: var(--black);
+}
+
 .about__collection {
   max-width: 370px;
 }
@@ -23,7 +29,6 @@
   text-decoration: underline;
 }
 .bottom-about:hover {
-  color: var(--black);
   transition: all 0.3s ease-out;
 }
 .photo__collection {
