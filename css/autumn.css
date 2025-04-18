@@ -6,7 +6,8 @@
 }
 
 .title__collection {
-  font-size: 25px;
+  display: flex;
+  font-size: clamp(18px, 2.83vw, 25px);
   font-family: "Montserrat", sans-serif;
 }
 
@@ -21,7 +22,7 @@
 }
 .collection-text {
   line-height: 140%;
-  font-size: 16px;
+  font-size: clamp(11px, 1.8vw, 16px);
   margin-bottom: 20px;
 }
 .bottom-about {
@@ -60,10 +61,6 @@
     margin-bottom: 15px;
   }
 
-  .mobile__title {
-    font-size: 18px;
-  }
-
   .mobile__photo {
     display: flex;
     justify-content: center;
@@ -83,7 +80,6 @@
   }
 
   .collection-text {
-    font-size: 11px;
     margin-bottom: 15px;
   }
   .bottom-about {
