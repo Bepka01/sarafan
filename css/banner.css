@@ -1,17 +1,119 @@
 .banner {
   background-image: url(../img-banner/bg-banner.jpg);
-  width: 100%;
-  height: 954px;
   background-size: cover;
   background-repeat: no-repeat;
-  max-width: 1600px;
+  width: 100%;
+  height: 954px;
 }
-
-.nav__banner {
+.header__tools {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .nav__store {
   display: flex;
   gap: 45px;
+}
+.nav__item {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: var(--black-color);
+}
+.header__button-icons {
+  display: flex;
+  gap: 20px;
+}
+.input {
+  background-color: transparent;
+  border-bottom: 1px solid var(--gray-color);
+  outline: none;
+}
+.about-collection {
+  height: 700px;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.left,
+.right {
+  position: absolute;
+  color: var(--white-color);
+}
+.left:hover,
+.right:hover {
+  color: var(--gray-color);
+  transition: all 0.2s ease;
+}
+.left {
+  top: 365px;
+  left: -350px;
+}
+
+.right {
+  top: 365px;
+  right: -200px;
+  rotate: 180deg;
+}
+.about__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--white-color);
+  max-width: 382px;
+  text-align: center;
+  align-items: center;
+  gap: 25px;
+}
+.autumn-summer-title {
+  font-size: clamp(20px, 2.3vw, 25px);
+}
+.romantic-about {
+  font-size: clamp(43px, 5.38vw, 63px);
+  font-family: Playfair Display;
+}
+.button-catalog {
+  width: 19vw;
+  background-color: var(--white-color);
+
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-catalog p {
+  color: var(--black-color);
+}
+.svg-button {
+  color: var(--black-color);
+}
+.svg-button:hover,
+.nav__item:hover {
+  color: var(--gray-color);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.slider-swap {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 13px;
+  width: 13px;
+  color: var(--black-color);
+  background-color: var(--white-color);
+}
+.circle-active {
+  border-radius: 50%;
+  height: 13px;
+  width: 13px;
+  color: var(--black-color);
+  background-color: var(--black-color);
+}
+.circle:hover {
+  background-color: var(--gray-color);
 }
