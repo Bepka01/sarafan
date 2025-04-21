@@ -161,14 +161,15 @@
 
 @media (max-width: 425px) {
   .banner {
-    background-image: none;
+    background-image: url(../img-banner/banner-mobile.jpg);
+    background-position: center;
   }
   .slider-swap {
     height: unset;
   }
 
   .about-collection {
-    background-image: url(../img-banner/banner-mobile.jpg);
+    /* background-image: url(../img-banner/banner-mobile.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
