@@ -88,6 +88,7 @@
 @media (max-width: 871px) {
   .new-collection__cards {
     flex-wrap: wrap;
+    margin-bottom: 15px;
   }
   .new-collection__photo {
     width: 100%;
@@ -113,6 +114,7 @@
     flex-wrap: nowrap;
     overflow-x: auto;
     gap: 15px;
+    margin-bottom: 0;
   }
   .new-collection-title {
     margin-bottom: 15px;
