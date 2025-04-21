@@ -1,68 +1,231 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/index.css" />
     <title>Sarafan</title>
   </head>
   <body>
-    <!DOCTYPE html>
-    <html>
-      <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-          rel="stylesheet"
-        />
+    <section class="new-collection container">
+      <div class="new-collection__title-block">
+        <h2 class="new-collection-title">New collection</h2>
+        <a class="mobile-button">
+          Все
+          <svg
+            width="4"
+            height="7"
+            viewBox="0 0 4 7"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0.643949 6.68725L3.55882 3.69701C3.61002 3.64448 3.63867 3.57404 3.63867 3.50069C3.63867 3.42735 3.61002 3.3569 3.55882 3.30438L0.643949 0.313007C0.620101 0.288514 0.591589 0.269046 0.560094 0.255754C0.528599 0.242461 0.49476 0.235613 0.460575 0.235613C0.426389 0.235613 0.39255 0.242461 0.361055 0.255754C0.32956 0.269046 0.301047 0.288514 0.2772 0.313007C0.228137 0.363237 0.20067 0.430666 0.20067 0.500882C0.20067 0.571097 0.228137 0.638526 0.2772 0.688756L3.01826 3.50069L0.2772 6.31207C0.228305 6.36227 0.200944 6.42958 0.200944 6.49966C0.200944 6.56974 0.228305 6.63705 0.2772 6.68725C0.301047 6.71175 0.32956 6.73121 0.361055 6.74451C0.39255 6.7578 0.426389 6.76465 0.460575 6.76465C0.49476 6.76465 0.528599 6.7578 0.560094 6.74451C0.591589 6.73121 0.620101 6.71175 0.643949 6.68725Z"
+              fill="#2D2D2D"
+            />
+          </svg>
+        </a>
+      </div>
 
-        <link rel="stylesheet" href="./css/index.css" />
-        <title>Sarafan</title>
-      </head>
-      <body>
-        <section>
-          <div class="container">
-            <div class="about">
-              <h2 class="title__collection">Вдохновленные весной</h2>
-              <div class="about__collection">
-                <p class="collection-text">
-                  Разнообразный и богатый опыт рамки и место обучения кадров
-                  способствует подготовки и реализации форм развития. С другой
-                  стороны реализация намеченных плановых
-                </p>
-                <a href="/" class="bottom-about">О бренде</a>
-              </div>
-            </div>
-            <div class="photo__collection">
-              <img class="left-photo" src="./autumn-images/1.png" alt="" />
-              <img class="right-photo" src="./autumn-images/2.png" alt="" />
-            </div>
+      <div class="new-collection__cards">
+        <div class="new-collection__card">
+          <img
+            class="new-collection__photo"
+            src="./images/new-collection/1.jpg"
+            alt="Наряд №1"
+          />
+          <svg
+            class="button-like"
+            width="512"
+            height="512"
+            viewBox="0 0 512 512"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M83.9411 142.294C122.891 63.1439 255.67 91.5061 255.67 142.294H256.33C256.33 91.5061 389.109 63.1439 428.059 142.294C484.667 257.326 342.294 357.51 257.204 417.385L256.33 418H255.67L254.795 417.385C169.706 357.51 27.3328 257.326 83.9411 142.294Z"
+              stroke="currentcolor"
+              stroke-width="24"
+            />
+          </svg>
+          <div class="new-collection__card-text">
+            <p class="new-collection__card-name">Платье в полоску с запахом</p>
+            <p class="new-collection__card-price">6 999 руб.</p>
           </div>
-          <div class="for__mobile">
-            <div class="mobile__title-block">
-              <h2 class="mobile__title">Вдохновленные весной</h2>
-            </div>
-            <div class="mobile__photo">
-              <img
-                class="img-mobile"
-                src="./autumn-images/mobile/mobile1.png"
-                alt=""
-              />
-            </div>
-            <div class="about__collection">
-              <p class="collection-text">
-                Разнообразный и богатый опыт рамки и место обучения кадров
-                способствует подготовки и реализации форм развития. С другой
-                стороны реализация намеченных плановых
-              </p>
-              <a class="bottom-about" href="/">О бренде</a>
-            </div>
+        </div>
+        <div class="new-collection__card">
+          <img
+            class="new-collection__photo"
+            src="./images/new-collection/2.jpg"
+            alt="Наряд №1"
+          />
+          <svg
+            class="button-like"
+            width="512"
+            height="512"
+            viewBox="0 0 512 512"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M83.9411 142.294C122.891 63.1439 255.67 91.5061 255.67 142.294H256.33C256.33 91.5061 389.109 63.1439 428.059 142.294C484.667 257.326 342.294 357.51 257.204 417.385L256.33 418H255.67L254.795 417.385C169.706 357.51 27.3328 257.326 83.9411 142.294Z"
+              stroke="currentcolor"
+              stroke-width="24"
+            />
+          </svg>
+          <div class="new-collection__card-text">
+            <p class="new-collection__card-name">Объемный пиджак</p>
+            <p class="new-collection__card-price">12 999 руб.</p>
           </div>
-        </section>
-      </body>
-    </html>
+        </div>
+        <div class="new-collection__card">
+          <img
+            class="new-collection__photo"
+            src="./images/new-collection/3.jpg"
+            alt="Наряд №1"
+          />
+          <svg
+            class="button-like"
+            width="512"
+            height="512"
+            viewBox="0 0 512 512"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M83.9411 142.294C122.891 63.1439 255.67 91.5061 255.67 142.294H256.33C256.33 91.5061 389.109 63.1439 428.059 142.294C484.667 257.326 342.294 357.51 257.204 417.385L256.33 418H255.67L254.795 417.385C169.706 357.51 27.3328 257.326 83.9411 142.294Z"
+              stroke="currentcolor"
+              stroke-width="24"
+            />
+          </svg>
+          <div class="new-collection__card-text">
+            <p class="new-collection__card-name">Комбинезон с принтом</p>
+            <p class="new-collection__card-price">6 999 руб.</p>
+          </div>
+        </div>
+        <div class="new-collection__card">
+          <img
+            class="new-collection__photo"
+            src="./images/new-collection/4.jpg"
+            alt="Наряд №1"
+          />
+          <svg
+            class="button-like"
+            width="512"
+            height="512"
+            viewBox="0 0 512 512"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M83.9411 142.294C122.891 63.1439 255.67 91.5061 255.67 142.294H256.33C256.33 91.5061 389.109 63.1439 428.059 142.294C484.667 257.326 342.294 357.51 257.204 417.385L256.33 418H255.67L254.795 417.385C169.706 357.51 27.3328 257.326 83.9411 142.294Z"
+              stroke="currentcolor"
+              stroke-width="24"
+            />
+          </svg>
+          <div class="new-collection__card-text">
+            <p class="new-collection__card-name">Атласный топ-комбинация</p>
+            <p class="new-collection__card-price">2 799 руб.</p>
+          </div>
+        </div>
+      </div>
+      <div class="new-collection__cards-big">
+        <div class="new-collection__card-big">
+          <img
+            class="new-collection__photo-big"
+            src="./images/new-collection/5.jpg"
+            alt=""
+          />
+          <svg
+            class="button-like"
+            width="512"
+            height="512"
+            viewBox="0 0 512 512"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M83.9411 142.294C122.891 63.1439 255.67 91.5061 255.67 142.294H256.33C256.33 91.5061 389.109 63.1439 428.059 142.294C484.667 257.326 342.294 357.51 257.204 417.385L256.33 418H255.67L254.795 417.385C169.706 357.51 27.3328 257.326 83.9411 142.294Z"
+              stroke="currentcolor"
+              stroke-width="24"
+            />
+          </svg>
+          <div class="new-collection__card-text">
+            <p class="new-collection__card-name">Комбинезон с принтом</p>
+            <p class="new-collection__card-price">6 999 руб.</p>
+          </div>
+        </div>
+        <div class="new-collection__card-big">
+          <img
+            class="new-collection__photo-big"
+            src="./images/new-collection/6.jpg"
+            alt=""
+          />
+          <svg
+            class="button-like"
+            width="512"
+            height="512"
+            viewBox="0 0 512 512"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M83.9411 142.294C122.891 63.1439 255.67 91.5061 255.67 142.294H256.33C256.33 91.5061 389.109 63.1439 428.059 142.294C484.667 257.326 342.294 357.51 257.204 417.385L256.33 418H255.67L254.795 417.385C169.706 357.51 27.3328 257.326 83.9411 142.294Z"
+              stroke="currentcolor"
+              stroke-width="24"
+            />
+          </svg>
+          <div class="new-collection__card-text">
+            <p class="new-collection__card-name">Комбинезон с принтом</p>
+            <p class="new-collection__card-price">6 999 руб.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="about">
+          <h2 class="title__collection">Вдохновленные весной</h2>
+          <div class="about__collection">
+            <p class="collection-text">
+              Разнообразный и богатый опыт рамки и место обучения кадров
+              способствует подготовки и реализации форм развития. С другой
+              стороны реализация намеченных плановых
+            </p>
+            <a href="/" class="bottom-about">О бренде</a>
+          </div>
+        </div>
+        <div class="photo__collection">
+          <img class="left-photo" src="./autumn-images/1.png" alt="" />
+          <img class="right-photo" src="./autumn-images/2.png" alt="" />
+        </div>
+      </div>
+      <div class="for__mobile">
+        <div class="mobile__title-block">
+          <h2 class="mobile__title">Вдохновленные весной</h2>
+        </div>
+        <div class="mobile__photo">
+          <img
+            class="img-mobile"
+            src="./autumn-images/mobile/mobile1.png"
+            alt=""
+          />
+        </div>
+        <div class="about__collection">
+          <p class="collection-text">
+            Разнообразный и богатый опыт рамки и место обучения кадров
+            способствует подготовки и реализации форм развития. С другой стороны
+            реализация намеченных плановых
+          </p>
+          <a class="bottom-about" href="/">О бренде</a>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
