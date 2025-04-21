@@ -37,23 +37,29 @@
   justify-content: space-between;
   gap: 30px;
 }
-.left-photo {
+.left__photo-autumn-collection {
+  width: 100%;
+}
+.autumn__left-photo {
   max-width: 669px;
 }
-.right-photo {
-  max-width: 480px;
+.autumn__right-photo {
+  max-width: 470px;
+}
+.right__photo-autumn-collection {
+  width: 100%;
 }
 .for__mobile {
   display: none;
 }
-@media (max-width: 870px) {
-  .container {
+@media (max-width: 775px) {
+  .autumn__collection-pc {
     display: none;
   }
 
   .for__mobile {
     display: block;
-    padding: 120px 10px;
+    padding: 10px;
   }
 
   .mobile__title-block {
