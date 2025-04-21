@@ -19,6 +19,7 @@
 .new-collection__cards {
   display: flex;
   gap: 30px;
+  margin-bottom: 60px;
 }
 
 .new-collection__card {
@@ -27,7 +28,6 @@
   max-width: calc(25% - 15px);
   width: 100%;
   position: relative;
-  margin-bottom: 60px;
 }
 
 .new-collection__photo {
