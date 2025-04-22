@@ -70,6 +70,10 @@
     display: none;
   }
 
+  .autumn {
+    padding: 30px 10px;
+  }
+
   .for__mobile-autumn {
     display: block;
     padding: 10px;
