@@ -162,7 +162,7 @@
 @media (max-width: 425px) {
   .banner {
     background-image: url(../img-banner/banner-mobile.jpg);
-    background-position: 100% 100%;
+    background-position: 100% -50%;
   }
   .slider-swap {
     height: unset;
