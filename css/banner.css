@@ -161,8 +161,10 @@
 
 @media (max-width: 425px) {
   .banner {
+    width: 100%;
     background-image: url(../img-banner/banner-mobile.jpg);
-    background-position: 100% -50%;
+    background-position: 100% -80%;
+    background-attachment: fixed;
   }
   .slider-swap {
     height: unset;
@@ -170,4 +172,8 @@
 }
 .button-catalog p {
   font-size: 14px;
+}
+@media (max-width: 398px) {
+  .banner {
+  }
 }
