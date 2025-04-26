@@ -2,9 +2,6 @@
   background-image: url(../img-banner/bg-banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-
-  height: 100vh;
-  overflow-x: hidden;
 }
 .header__tools {
   display: flex;
@@ -161,8 +158,7 @@
   .banner {
     width: 100%;
     background-image: url(../img-banner/banner-mobile.jpg);
-    background-position: 100% -80%;
-    background-attachment: fixed;
+    background-position: 100% 65px;
   }
   .slider-swap {
     height: unset;
