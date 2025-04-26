@@ -2,8 +2,10 @@
   background-image: url(../img-banner/bg-banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 .header__tools {
+  width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -158,10 +160,14 @@
   .banner {
     width: 100%;
     background-image: url(../img-banner/banner-mobile.jpg);
-    background-position: 100% 65px;
+    background-position: 100% 80px;
+    background-attachment: fixed;
   }
   .slider-swap {
     height: unset;
+  }
+  .about__text {
+    color: var(--black);
   }
 }
 .button-catalog p {
