@@ -126,6 +126,10 @@
   background-color: transparent;
   outline: none;
 }
+
+.burger__nav-button:hover .line {
+  border-color: var(--gray);
+}
 @media (max-width: 1200px) {
   .header__tools {
     width: 100%;
