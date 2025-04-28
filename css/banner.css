@@ -27,7 +27,7 @@
   background-color: transparent;
   border-bottom: 1px solid var(--black);
   outline: none;
-  padding-left: 20px;
+  padding: 5px 15px;
 }
 .input__icon {
   position: absolute;
