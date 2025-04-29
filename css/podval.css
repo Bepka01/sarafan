@@ -1,0 +1,30 @@
+.podval {
+  display: flex;
+  gap: 150px;
+  padding: 32px 112px;
+}
+.help,
+.company,
+.media {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.title__block {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+a:hover {
+  color: var(--gray);
+  transition: all 0.2s ease;
+}
+.podval__text {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: var(--gray);
+  font-size: 14px;
+  line-height: 105%;
+  font-weight: 400;
+}
