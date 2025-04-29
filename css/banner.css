@@ -8,7 +8,6 @@
 .banner__nav {
   display: flex;
   justify-content: space-between;
-  gap: 85px;
 }
 .banner__links {
   display: flex;
@@ -172,6 +171,7 @@
     background-image: url(../img-banner/banner-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
   }
 
   .banner__nav {
