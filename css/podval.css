@@ -1,7 +1,10 @@
 .podval {
   display: flex;
-  gap: 150px;
+  justify-content: space-between;
   padding: 32px 112px;
+}
+.media {
+  width: 300px;
 }
 .help,
 .company,
@@ -27,4 +30,72 @@ a:hover {
   font-size: 14px;
   line-height: 105%;
   font-weight: 400;
+}
+.for__mobile-podval {
+  display: none;
+}
+hr {
+  color: var(--gray);
+}
+@media (max-width: 1000px) {
+  .podval {
+    display: none;
+  }
+  .podval__text {
+    display: none;
+  }
+  .for__mobile-podval {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 70px;
+  }
+  .for__mobile-podval h3 {
+    color: var(--black);
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  .for__mobile-podval h3:hover {
+    color: var(--gray);
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .arrow__podval-top {
+    color: var(--black);
+    transform: rotate(270deg);
+    margin-left: 8px;
+  }
+  .arrow__podval-bottom {
+    margin-left: 8px;
+    color: var(--black);
+    transform: rotate(90deg);
+  }
+  .Company__podval-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 35px;
+  }
+  .help__podval-mobile {
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .for__mobile-podval a:hover {
+    color: var(--gray);
+    transition: all 0.2s ease;
+  }
+  .media__podval-mobile {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+  }
+  .img__podval-logo {
+    text-align: center;
+  }
+  .podval__text-mobile {
+    max-width: 350px;
+    text-align: center;
+    color: var(--gray);
+  }
 }
