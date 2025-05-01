@@ -173,6 +173,9 @@
     background-size: cover;
     height: 100vh;
   }
+  .banner__tools {
+    gap: 10px;
+  }
 
   .banner__nav {
     background-color: var(--white);
