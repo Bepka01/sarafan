@@ -153,12 +153,11 @@
   .banner__burger-button {
     display: flex;
   }
-  .banner__links {
-    display: none;
-  }
+  .banner__links,
   .banner__input {
     display: none;
   }
+
   .banner__about {
     align-items: center;
   }
