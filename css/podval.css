@@ -1,6 +1,9 @@
 .footer {
   padding: 64px 105px;
 }
+hr {
+  color: var(--gray);
+}
 
 .footer__container {
   display: flex;
@@ -83,6 +86,7 @@
   .footer__mobile-text {
     color: var(--gray);
     font-size: 10px;
+    text-align: center;
   }
   .footer__mobile-arrow-bottom {
     transform: rotate(90deg);
