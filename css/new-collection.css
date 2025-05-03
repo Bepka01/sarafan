@@ -1,0 +1,147 @@
+.new-collection-title {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 114%;
+  letter-spacing: 3px;
+  color: var(--black);
+}
+.new-collection__title-block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.new-collection {
+  padding: 60px 10px;
+}
+
+.new-collection__cards {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.new-collection__card {
+  display: flex;
+  flex-direction: column;
+  max-width: calc(25% - 15px);
+  width: 100%;
+  position: relative;
+}
+
+.new-collection__photo {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.button-like {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: var(--white);
+  cursor: pointer;
+}
+.button-like:hover {
+  color: red;
+  transition: all 0.3s ease-in;
+}
+
+.new-collection__card-name {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.new-collection__cards-big {
+  display: flex;
+  gap: 30px;
+  flex: 0 1 auto;
+}
+
+.new-collection__card-big {
+  max-width: calc(50% - 15px);
+  width: unset;
+  position: relative;
+  flex-direction: column;
+}
+
+.new-collection__photo-big {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.mobile-button {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .new-collection__cards,
+  .new-collection__cards-big {
+    gap: 15px;
+  }
+  .new-collection__card-price,
+  .new-collection__card-name {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 871px) {
+  .new-collection {
+    padding: 30px 10px;
+  }
+
+  .new-collection__cards {
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+  }
+  .new-collection__photo {
+    width: 100%;
+  }
+
+  .new-collection-title {
+    font-size: 18px;
+  }
+  .new-collection__card {
+    max-width: unset;
+    width: calc(50% - 7.5px);
+  }
+  .new-collection__photo {
+    width: 100%;
+  }
+  .new-collection__card-big {
+    width: calc(50% - 7.5px);
+    max-width: unset;
+  }
+}
+@media (max-width: 590px) {
+  .new-collection__cards {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 15px;
+    margin-bottom: 0;
+  }
+  .new-collection-title {
+    margin-bottom: 15px;
+  }
+  .new-collection__card {
+    width: 222px;
+  }
+  .new-collection__photo {
+    width: 222px;
+    margin-bottom: 15px;
+  }
+  .new-collection__card-name {
+    margin-bottom: 5px;
+  }
+  .mobile-button {
+    display: unset;
+    color: var(--black);
+  }
+  .mobile-section-title {
+    display: flex;
+    justify-content: space-between;
+  }
+  .new-collection__cards-big {
+    display: none;
+  }
+}
