@@ -1,8 +1,6 @@
 .footer {
   padding: 64px 105px;
-}
-hr {
-  color: var(--gray);
+  border-top: 1px var(--gray) solid;
 }
 
 .footer__container {
